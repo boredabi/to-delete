@@ -1,0 +1,11 @@
+[
+    { "keys": ["ctrl+shift+h"], "command": "chain",
+        "args": {
+            "commands": [
+                ["terminus_close"],
+                ["destroy_pane", {"direction": "self"}]
+            ]
+        },
+        "context": [{ "key": "terminus_view"}]
+    },
+]
